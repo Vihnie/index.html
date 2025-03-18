@@ -1,4 +1,4 @@
-# index.html# 
+# index.html 
 html_content = """
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +34,6 @@ html_content = """
 </html>
 """
 
-# Write the HTML content to a file
 with open("index.html", "w") as file:
     file.write(html_content)
 
